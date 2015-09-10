@@ -1,0 +1,9 @@
+.\src\multiplier_signed.vhd
+.\src\multiplier_unsigned.vhd
+.\src\operands.vhd
+.\src\DFF_R.vhd
+.\src\Shift_Register.bde
+.\src\Adder\Adder.vhd
+.\src\Adder\Adder_BD.bde
+.\src\Adder\FullAdder.bde
+.\src\Adder\HalfAdder.bde
