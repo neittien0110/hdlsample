@@ -1,5 +1,0 @@
-i<>.\src\multiplier_signed.vhd
-i<>.\src\multiplier_unsigned.vhd
-i<>.\src\operands.vhd
-i<>.\src\DFF_R.vhd
-i<>.\src\Shift_Register.bde

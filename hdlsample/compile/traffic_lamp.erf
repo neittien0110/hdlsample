@@ -1,0 +1,5 @@
+MESSAGE "Loading State Diagram data..."
+MESSAGE "Generating c:\My_Designs\hdlsample\hdlsample\compile\traffic_lamp.vhd from c:\My_Designs\hdlsample\hdlsample\src\traffic_lamp.asf"
+MESSAGE "Synthesis attributes will be generated for Synopsys FPGA Express"
+MESSAGE "Generating interface file..."
+SUCCESS "HDL code generation successful. 0 error(s), 0 warning(s)"

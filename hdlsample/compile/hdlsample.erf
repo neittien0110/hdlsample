@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available." 
+MESSAGE "File: .\miniALU.vhd" 
+MESSAGE "Compile Entity "miniALU"" 
+MESSAGE "Compile Architecture "miniALU" of Entity "miniALU"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

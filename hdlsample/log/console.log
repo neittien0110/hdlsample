@@ -1,0 +1,91 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work hdlsample -2002  $dsn/src/operands.vhd $dsn/src/traffic_lamp.asf $dsn/src/fsm_demo.asf $dsn/src/dff_r.vhd $dsn/src/multiplier_signed.vhd $dsn/src/shift_register.bde $dsn/src/multiplier_unsigned.vhd $dsn/src/7seg/decoder7seg.vhd $dsn/src/adder/adder.vhd $dsn/src/adder/halfadder.bde $dsn/src/adder/fulladder.bde $dsn/src/adder/adder_bd.bde $dsn/src/memory/ram.vhd $dsn/src/memory/rom16x8.vhd $dsn/src/memory/dualportram.vhd $dsn/src/minialu/and8.vhd $dsn/src/minialu/minialu.bde $dsn/src/minialu/sub.vhd $dsn/src/mux/mux2x1.vhd $dsn/src/mux/mux4x1.vhd
+# Compile...
+# DRC: Checking file 'W:\workspaces\activehdl\hdlsample\hdlsample\src\minialu\minialu.bde'.
+# DRC: Warning: minialu.bde - 0 error(s), 5 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating W:\workspaces\activehdl\hdlsample\hdlsample\compile\minialu.vhd from W:\workspaces\activehdl\hdlsample\hdlsample\src\minialu\minialu.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\operands.vhd
+# Compile Entity "OPERANDS"
+# Compile Architecture "behavior" of Entity "OPERANDS"
+# File: .\traffic_lamp.vhd
+# Compile Entity "Traffic_Lamp"
+# Compile Architecture "Traffic_Lamp_arch" of Entity "Traffic_Lamp"
+# File: .\fsm_demo.vhd
+# Compile Entity "demo"
+# Compile Architecture "demo_arch" of Entity "demo"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\dff_r.vhd
+# Compile Entity "DFF_R"
+# Compile Architecture "behavior" of Entity "DFF_R"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\multiplier_signed.vhd
+# Compile Entity "multiplier_signed"
+# Compile Architecture "dataflow" of Entity "multiplier_signed"
+# File: .\shift_register.vhd
+# Compile Entity "Shift_Register"
+# Compile Architecture "Shift_Register" of Entity "Shift_Register"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\multiplier_unsigned.vhd
+# Compile Entity "multiplier_unsigned"
+# Compile Architecture "dataflow" of Entity "multiplier_signed"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\7seg\decoder7seg.vhd
+# Compile Entity "decoder7seg"
+# Compile Architecture "behavior" of Entity "decoder7seg"
+# Compile Architecture "convert" of Entity "decoder7seg"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\adder\adder.vhd
+# Compile Entity "Adder"
+# Compile Architecture "MyDataflow" of Entity "Adder"
+# File: .\halfadder.vhd
+# Compile Entity "HalfAdder"
+# Compile Architecture "HalfAdder" of Entity "HalfAdder"
+# File: .\fulladder.vhd
+# Compile Entity "FullAdder"
+# Compile Architecture "FullAdder" of Entity "FullAdder"
+# File: .\adder_bd.vhd
+# Compile Entity "Adder_BD"
+# Compile Architecture "Adder_BD" of Entity "Adder_BD"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\memory\ram.vhd
+# Compile Entity "RAM"
+# Compile Architecture "ram_arch" of Entity "RAM"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\memory\rom16x8.vhd
+# Compile Entity "ROM16x8"
+# Compile Architecture "behavior" of Entity "ROM16x8"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\memory\dualportram.vhd
+# Compile Entity "dualportram"
+# Compile Architecture "dualportram" of Entity "dualportram"
+# Warning: COMP96_0564: dualportram.vhd : (45, 8): Shared variable is not of a protected type. (IEEE Std 1076-2002, 4.3.1.3)
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\minialu\and8.vhd
+# Compile Entity "AND8"
+# Compile Architecture "AND8" of Entity "AND8"
+# File: .\minialu.vhd
+# Compile Entity "miniALU"
+# Compile Architecture "miniALU" of Entity "miniALU"
+# Warning: ELAB1_0026: miniALU.bde(minialu.vhd) : (85, 0): There is no default binding for component "mux4x1".(No entity named "mux4x1" was found).
+# Warning: ELAB1_0026: miniALU.bde(minialu.vhd) : (109, 0): There is no default binding for component "SUB8".(No entity named "SUB8" was found).
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\minialu\sub.vhd
+# Compile Entity "SUB8"
+# Compile Architecture "dataflow" of Entity "SUB8"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\mux\mux2x1.vhd
+# Compile Entity "MUX2x1"
+# Compile Architecture "behavior" of Entity "MUX2x1"
+# Compile Architecture "dataflow" of Entity "MUX2x1"
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\mux\mux4x1.vhd
+# Compile Entity "mux4x1"
+# Compile Architecture "mux_arch" of Entity "mux4x1"
+# Compile success 0 Errors 3 Warnings  Analysis time :  0.9 [s]
+acom -work hdlsample -2002  $dsn/src/MiniALU/AND8.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: W:\workspaces\activehdl\hdlsample\hdlsample\src\MiniALU\AND8.vhd
+# Compile Entity "AND8"
+# Compile Architecture "AND8" of Entity "AND8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -work hdlsample -2002  $dsn/src/MiniALU/miniALU.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available.
+# File: .\miniALU.vhd
+# Compile Entity "miniALU"
+# Compile Architecture "miniALU" of Entity "miniALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]

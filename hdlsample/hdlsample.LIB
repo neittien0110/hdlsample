@@ -1,0 +1,257 @@
+timestamp=1443324648064
+
+[adder]
+A/mydataflow=A/MyDataflow 21|./src/adder/adder.vhd|47|1*160999
+B/mydataflow=3*125342
+C=8.2.1986.3485  (Windows)
+C/mydataflow=8.2.1986.3485  (Windows)
+I=0*18886
+I/mydataflow=I/MyDataflow 0*19487
+M=11|0|v63|1443323786906|./src/adder/adder.vhd|0*18426*0xdf9a482a4133633eb0666b9fad2a20836365adeb|0*18812*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/mydataflow=M/MyDataflow 21|0|v63|1443324633930|./src/adder/adder.vhd|0*19054*0x1c71623b86513c628a1417b081be722d5aa5be4e|0*19399*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/adder/adder.vhd|29
+
+[adder_bd]
+A/adder_bd=A/Adder_BD 24|.\src\Adder\Adder_BD.bde|10000|1*166879
+C=8.2.1986.3485  (Windows)
+C/adder_bd=8.2.1986.3485  (Windows)
+I=0*20273
+I/adder_bd=I/Adder_BD 0*49067
+M=11|0|v63|1443323786953|./compile/adder_bd.vhd|0*19898*0x6182e50e7a2aa1ad0a1fd83dc7f0fb3b45eff237|0*20195*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/adder_bd=M/Adder_BD 21|0|v63|1443324634021|./compile/adder_bd.vhd|0*48270*0xc50532a746dbf5c4d4f1e626ad13662edca02eb4|0*48977*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/adder_bd.vhd|25
+
+[and8]
+A/and8=A/AND8 21|./src/MiniALU/AND8.vhd|38|1*190479
+B/and8=3*138339
+C=8.2.1986.3485  (Windows)
+C/and8=8.2.1986.3485  (Windows)
+I=0*49735
+I/and8=I/AND8 0*50046
+M=11|0|v63|1443324634175|./src/minialu/and8.vhd|0*49416*0xec409f7cf45a0ef9a3493deda197b3c934b51b3a|0*49661*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/and8=M/AND8 21|0|v63|1443324643782|./src/minialu/and8.vhd|0*49833*0x9c955543572109b1e18195876d9d104d4af7b54f|0*49964*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/minialu/and8.vhd|28
+
+[decoder7seg]
+A/behavior=21|./src/7seg/decoder7seg.vhd|50|1*155989
+A/convert=21|./src/7seg/decoder7seg.vhd|93|1*159106
+B/behavior=3*120091
+B/convert=3*123499
+C=8.2.1986.3485  (Windows)
+C/behavior=8.2.1986.3485  (Windows)
+C/convert=8.2.1986.3485  (Windows)
+I=0*11817
+I/behavior=0*12926
+I/convert=0*14498
+M=11|0|v63|1443323620869|./src/7SEG/decoder7seg.vhd|0*11362*0x70714f7139621bf6cfb3513ffa8bd135e15ad47e|0*11732*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/behavior=21|0|v63|1443324633883|./src/7SEG/decoder7seg.vhd|0*11991*0x3a0bc7bbf11af8a26e4c24958a8867c06d4c648b|0*12829*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/convert=21|0|v63|1443324633887|./src/7SEG/decoder7seg.vhd|0*13109*0x91fc3666efe1498b6b9adfca5324f36490210526|0*14402*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/7SEG/decoder7seg.vhd|34
+
+[demo]
+A/demo_arch=23|.\src\FSM_demo.asf|10000|1*146924
+B/demo_arch=3*113377
+C=8.2.1986.3485  (Windows)
+C/demo_arch=8.2.1986.3485  (Windows)
+I=0*1493
+I/demo_arch=0*46013
+M=11|0|v63|1443323592605|./compile/fsm_demo.vhd|0*1128*0xf388c9bf6870194f19a200722f1897bf83314dde|0*1419*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/demo_arch=21|0|v63|1443324633724|./compile/fsm_demo.vhd|0*45117*0xcd96d6e0c7f3c5ac09a2dc2c9d438cc197260fe2|0*45926*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/fsm_demo.vhd|26
+
+[dff_r]
+A/behavior=21|./src/dff_r.vhd|41|1*148418
+B/behavior=3*115358
+C=8.2.1986.3485  (Windows)
+C/behavior=8.2.1986.3485  (Windows)
+I=0*461
+I/behavior=0*849
+M=11|0|v63|1443323592511|./src/dff_r.vhd|0*170*0x5a0c9b396ef122fdd9274c94f550e51455c2a31b|0*393*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/behavior=21|0|v63|1443324633758|./src/dff_r.vhd|0*560*0x217ffa2e371f94ddc354fb0154a6eb050ed83524|0*769*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/dff_r.vhd|30
+
+[dualportram]
+A/dualportram=21|./src/memory/dualportram.vhd|43|1*174211
+B/dualportram=3*133631
+C=8.2.1986.3485  (Windows)
+C/dualportram=8.2.1986.3485  (Windows)
+I=0*26828
+I/dualportram=0*27665
+M=11|0|v63|1443323833379|./src/Memory/dualportram.vhd|0*26259*0x0f5516bfd80232601078806a19d42f3cf96ed694|0*26741*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/dualportram=21|0|v63|1443324634087|./src/Memory/dualportram.vhd|0*27128*0x2fdeacdcbee23eb5eb323a1421b383983b308a21|0*27563*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/Memory/dualportram.vhd|31
+
+[fulladder]
+A/fulladder=A/FullAdder 24|.\src\Adder\FullAdder.bde|10000|1*164692
+B/fulladder=3*128920
+C=8.2.1986.3485  (Windows)
+C/fulladder=8.2.1986.3485  (Windows)
+I=0*21776
+I/fulladder=I/FullAdder 0*48100
+M=11|0|v63|1443323786969|./compile/fulladder.vhd|0*21437*0xf6921ac5a64c1a9e9a2738cfa19046e94c009afe|0*21696*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/fulladder=M/FullAdder 21|0|v63|1443324633990|./compile/fulladder.vhd|0*47529*0x788b16305353e9e3d80db706c43d34303af43a4d|0*48007*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/fulladder.vhd|25
+
+[halfadder]
+A/halfadder=A/HalfAdder 24|.\src\Adder\HalfAdder.bde|10000|1*163491
+B/halfadder=3*127972
+C=8.2.1986.3485  (Windows)
+C/halfadder=8.2.1986.3485  (Windows)
+I=0*23015
+I/halfadder=I/HalfAdder 0*47416
+M=11|0|v63|1443323787000|./compile/halfadder.vhd|0*22697*0xdc8215a09ab6fda1602951389bd04cc4c1040c0b|0*22935*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/halfadder=M/HalfAdder 21|0|v63|1443324633959|./compile/halfadder.vhd|0*47152*0x9da847656d646b8df5fc68cbae202b78f99027b1|0*47323*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/halfadder.vhd|25
+
+[minialu]
+A/minialu=A/miniALU 24|.\src\MiniALU\miniALU.bde|10000|1*191969
+B/minialu=3*138942
+C=8.2.1986.3485  (Windows)
+C/minialu=8.2.1986.3485  (Windows)
+I=0*50735
+I/minialu=I/miniALU 0*58023
+M=11|0|v63|1443324634269|./compile/minialu.vhd|0*50371*0x41842c8bbb4ae20c400b0fdcf477f613be9fa8c9|0*50659*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/minialu=M/miniALU 21|0|v63|1443324648003|./compile/miniALU.vhd|0*56369*0x9f7ad3a822e8395dd6cb3f2f8a5a3be40ddea851|0*57936*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/minialu.vhd|25
+
+[multiplier_signed]
+A/dataflow=21|./src/multiplier_unsigned.vhd|27|1*154164
+B/dataflow=3*118619
+C=8.2.1986.3485  (Windows)
+C/dataflow=8.2.1986.3485  (Windows)
+I=0*3645
+I/dataflow=0*4101
+M=11|0|v63|1443323592708|./src/multiplier_signed.vhd|0*3156*0xfa9115beccf42c15f241cc2117dee77b014b326b|0*3553*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/dataflow=21|0|v63|1443324633852|./src/multiplier_signed.vhd|0*3823*0xb89a350d581dcca482be980b6cc2019c25ab1a56|0*3997*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/multiplier_signed.vhd|11
+
+[multiplier_unsigned]
+C=8.2.1986.3485  (Windows)
+I=0*5090
+M=11|0|v63|1443323592741|./src/multiplier_unsigned.vhd|0*4587*0x0abc88333cc36c1464467b2c312aa41deef8157b|0*4994*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/multiplier_unsigned.vhd|11
+
+[mux2x1]
+A/behavior=21|./src/mux/mux2x1.vhd|17|1*185912
+A/dataflow=21|./src/mux/mux2x1.vhd|31|1*187157
+B/behavior=3*136470
+B/dataflow=3*136933
+C=8.2.1986.3485  (Windows)
+C/behavior=8.2.1986.3485  (Windows)
+C/dataflow=8.2.1986.3485  (Windows)
+I=0*54133
+I/behavior=0*54538
+I/dataflow=0*54899
+M=11|0|v63|1443324634488|./src/mux/mux2x1.vhd|0*53828*0x8a41d905eb7fb56e057e71bc1dfafc664b8c9a34|0*54059*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/behavior=21|0|v63|1443324634490|./src/mux/mux2x1.vhd|0*54233*0xf3067917b577feb8a506319eadd4c8d5e4a95807|0*54452*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/dataflow=21|0|v63|1443324634503|./src/mux/mux2x1.vhd|0*54647*0x42829c87d798fb3f503f52371a16baa67cc79631|0*54813*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/mux/mux2x1.vhd|8
+
+[mux4x1]
+A/mux_arch=21|./src/mux/mux4x1.vhd|42|1*188261
+B/mux_arch=3*137588
+C=8.2.1986.3485  (Windows)
+C/mux_arch=8.2.1986.3485  (Windows)
+I=0*55708
+I/mux_arch=0*56191
+M=11|0|v63|1443324634535|./src/mux/mux4x1.vhd|0*55289*0x1c940203465a45c382855aa2c5837fa978a0855d|0*55634*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/mux_arch=21|0|v63|1443324634537|./src/mux/mux4x1.vhd|0*55808*0x6940b01e543882d96ffcb68485716cfa2b5396a5|0*56105*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/mux/mux4x1.vhd|26
+
+[operands]
+A/behavior=21|./src/operands.vhd|40|1*141211
+B/behavior=3*105372
+C=8.2.1986.3485  (Windows)
+C/behavior=8.2.1986.3485  (Windows)
+I=0*6005
+I/behavior=0*6863
+M=11|0|v63|1443323592775|./src/operands.vhd|0*5539*0x88edb0a6fc7ce193df7be593019d3b44f6c80ec2|0*5931*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/behavior=21|0|v63|1443324633633|./src/operands.vhd|0*6239*0x126620e68f3960933ed39701cc3448cf64da0db6|0*6777*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/operands.vhd|26
+
+[ram]
+A/ram_arch=21|./src/memory/ram.vhd|19|1*169907
+B/ram_arch=3*129456
+C=8.2.1986.3485  (Windows)
+C/ram_arch=8.2.1986.3485  (Windows)
+I=0*28804
+I/ram_arch=0*29512
+M=11|0|v63|1443323834786|./src/Memory/RAM.vhd|0*28310*0x709a9fb250ea7117b74e42a8541b3b52727c3681|0*28733*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/ram_arch=21|0|v63|1443324634030|./src/Memory/RAM.vhd|0*28970*0xf2b8295768b7a440ea11cbe93f81364e167f9eb7|0*29429*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/Memory/RAM.vhd|5
+
+[rom16x8]
+A/behavior=21|./src/memory/rom16x8.vhd|13|1*172517
+B/behavior=3*132748
+C=8.2.1986.3485  (Windows)
+C/behavior=8.2.1986.3485  (Windows)
+I=0*30231
+I/behavior=0*30814
+M=11|0|v63|1443323836109|./src/Memory/ROM16x8.vhd|0*29887*0x79fb3af97401e58643d28057ae019d8ac8ad14b3|0*30152*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/behavior=21|0|v63|1443324634055|./src/Memory/ROM16x8.vhd|0*30332*0x9bf0e4f104b2af4c38f0e307b4696b1d8f2e1d60|0*30723*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/Memory/ROM16x8.vhd|4
+
+[shift_register]
+A/shift_register=A/Shift_Register 24|.\src\Shift_Register.bde|10000|1*151318
+B/shift_register=3*117978
+C=8.2.1986.3485  (Windows)
+C/shift_register=8.2.1986.3485  (Windows)
+I=0*7695
+I/shift_register=I/Shift_Register 0*46976
+M=11|0|v63|1443323592944|./compile/shift_register.vhd|0*7322*0x567e79ebf680b63cb7b2719fa7d8c6702cc19ce6|0*7605*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/shift_register=M/Shift_Register 21|0|v63|1443324633818|./compile/shift_register.vhd|0*46255*0xc8991f998da8b760b1424809912552842c2bd6b2|0*46868*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/shift_register.vhd|25
+
+[sub8]
+A/dataflow=21|./src/minialu/sub.vhd|39|1*184359
+B/dataflow=3*135863
+C=8.2.1986.3485  (Windows)
+C/dataflow=8.2.1986.3485  (Windows)
+I=0*53085
+I/dataflow=0*53479
+M=11|0|v63|1443324634425|./src/minialu/sub.vhd|0*52735*0x1f3df3ce6fec3df374374a708f6e340b0aac1c4e|0*53012*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/dataflow=21|0|v63|1443324634427|./src/minialu/sub.vhd|0*53252*0x4c62e50ad0e92c35af67cf8787e65bdcdccaf981|0*53394*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/minialu/sub.vhd|29
+
+[traffic_lamp]
+A/traffic_lamp_arch=A/Traffic_Lamp_arch 23|.\src\Traffic_Lamp.asf|10000|1*144060
+B/traffic_lamp_arch=3*110580
+C=8.2.1986.3485  (Windows)
+C/traffic_lamp_arch=8.2.1986.3485  (Windows)
+I=0*9431
+I/traffic_lamp_arch=I/Traffic_Lamp_arch 0*44859
+M=11|0|v63|1443323593009|./compile/traffic_lamp.vhd|0*8958*0xa2e957d4ed0370c8be59b945ad46de0003858405|0*9345*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/traffic_lamp_arch=M/Traffic_Lamp_arch 21|0|v63|1443324633693|./compile/traffic_lamp.vhd|0*43700*0x4833a18a638982e79b84dc96e36c7223d718b276|0*44752*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./compile/traffic_lamp.vhd|26
+
+[~A]
+ModifyID=591
+Version=73
+
+[~MFT]
+0=304|0hdlsample.mgf|58023|25724
+1=152|1hdlsample.mgf|191969|150597
+3=141|3hdlsample.mgf|138942|107753
+
+[~U]
+adder=Adder 11|0*18132|
+adder_bd=Adder_BD 11|0*19666|
+and8=AND8 11|0*49235|
+decoder7seg=11|0*11088|
+demo=11|0*957|
+dff_r=DFF_R 11|0*0|
+dualportram=11|0*25942|
+fulladder=FullAdder 11|0*21238|
+halfadder=HalfAdder 11|0*22518|
+minialu=miniALU 11|0*50149|
+multiplier_signed=11|0*2863|
+multiplier_unsigned=11|0*4288|
+mux2x1=MUX2x1 11|0*53655|
+mux4x1=11|0*55008|
+operands=OPERANDS 11|0*5272|
+ram=RAM 11|0*27977|
+rom16x8=ROM16x8 11|0*29687|
+shift_register=Shift_Register 11|0*7106|
+sub8=SUB8 11|0*52554|
+traffic_lamp=Traffic_Lamp 11|0*8700|
+

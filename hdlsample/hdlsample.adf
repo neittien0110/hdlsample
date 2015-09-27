@@ -1,0 +1,120 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=2
+Current Config=compile
+
+[Configurations]
+compile=hdlsample
+
+[Library]
+hdlsample=.\hdlsample.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+EnableCC=0
+EnableEXC=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+EnableExpressionCoverage=0
+
+[LocalVhdlSets]
+EnableExpressionCoverage=0
+CompileWithDebug=0
+
+[$LibMap$]
+hdlsample=.
+Active_lib=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=multiplier_signed|dataflow|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+7SEG=1
+Adder=1
+Memory=1
+MiniALU=1
+Mux=1
+
+[Files]
+/operands.vhd=-1
+/Traffic_Lamp.asf=-1
+/FSM_demo.asf=-1
+/DFF_R.vhd=-1
+/multiplier_signed.vhd=-1
+/Shift_Register.bde=-1
+/multiplier_unsigned.vhd=-1
+7SEG/decoder7seg.vhd=-1
+Adder/Adder.vhd=-1
+Adder/HalfAdder.bde=-1
+Adder/FullAdder.bde=-1
+Adder/Adder_BD.bde=-1
+Memory/RAM.vhd=-1
+Memory/ROM16x8.vhd=-1
+Memory/dualportram.vhd=-1
+MiniALU/AND8.vhd=-1
+MiniALU/miniALU.bde=-1
+MiniALU/sub.vhd=-1
+Mux/Mux2x1.vhd=-1
+Mux/mux4x1.vhd=-1
+
+[Files.Data]
+.\src\operands.vhd=VHDL Source Code
+.\src\Traffic_Lamp.asf=State Diagram
+.\src\FSM_demo.asf=State Diagram
+.\src\DFF_R.vhd=VHDL Source Code
+.\src\multiplier_signed.vhd=VHDL Source Code
+.\src\Shift_Register.bde=Block Diagram
+.\src\multiplier_unsigned.vhd=VHDL Source Code
+.\src\7SEG\decoder7seg.vhd=VHDL Source Code
+.\src\Adder\Adder.vhd=VHDL Source Code
+.\src\Adder\HalfAdder.bde=Block Diagram
+.\src\Adder\FullAdder.bde=Block Diagram
+.\src\Adder\Adder_BD.bde=Block Diagram
+.\src\Memory\RAM.vhd=VHDL Source Code
+.\src\Memory\ROM16x8.vhd=VHDL Source Code
+.\src\Memory\dualportram.vhd=VHDL Source Code
+.\src\MiniALU\AND8.vhd=VHDL Source Code
+.\src\MiniALU\miniALU.bde=Block Diagram
+.\src\MiniALU\sub.vhd=VHDL Source Code
+.\src\Mux\Mux2x1.vhd=VHDL Source Code
+.\src\Mux\mux4x1.vhd=VHDL Source Code
+
+[file_out:/Traffic_Lamp.asf]
+/..\compile\traffic_lamp.vhd=-1
+
+[file_out:/FSM_demo.asf]
+/..\compile\fsm_demo.vhd=-1
+
+[file_out:/Shift_Register.bde]
+/..\compile\shift_register.vhd=-1
+
+[file_out:Adder/HalfAdder.bde]
+Adder/..\..\compile\halfadder.vhd=-1
+
+[file_out:Adder/FullAdder.bde]
+Adder/..\..\compile\fulladder.vhd=-1
+
+[file_out:Adder/Adder_BD.bde]
+Adder/..\..\compile\adder_bd.vhd=-1
+
+[file_out:MiniALU/miniALU.bde]
+MiniALU/..\..\compile\miniALU.vhd=-1
+

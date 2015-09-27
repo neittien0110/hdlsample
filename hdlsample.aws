@@ -1,0 +1,12 @@
+[Version]
+Version=8.2
+[Designs]
+hdlsample=.\hdlsample\hdlsample.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+hdlsample=1

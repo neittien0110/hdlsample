@@ -1,0 +1,1 @@
+-w -s "W:\workspaces\activehdl\hdlsample\library.cfg"  -j "W:\workspaces\activehdl\hdlsample\hdlsample\projlib.cfg"  -d "W:\workspaces\activehdl\hdlsample\hdlsample\compile"   -work hdlsample  -O3 -e 100 -2002 "W:\workspaces\activehdl\hdlsample\hdlsample\compile\miniALU.vhd" 
